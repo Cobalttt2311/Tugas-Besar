@@ -57,7 +57,6 @@ int main() {																// Badan utama program
         printf("Jam Kerja: %.1f Jam\n", Dt_Buruh_dari_file[k].JamKrj);
         printf("Upah: Rp %.0f\n", Dt_Buruh_dari_file[k].Upah);
     }
-/ Hasil Ubah
 	
 
     return 0;
