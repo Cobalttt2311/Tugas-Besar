@@ -5,7 +5,7 @@
 int main() {																// Badan utama program		
     int i;
     printf("PENDATAAN KARYAWAN PERUSAHAAN\n\n");
-    printf("Masukkan: ");
+    printf("Masukkan Jumlah Karyawan:");
     scanf("%d", &i);
 
     struct Buruh Dt_Buruh[i];
