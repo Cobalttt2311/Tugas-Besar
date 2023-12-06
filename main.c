@@ -17,12 +17,13 @@ int main(){
 	
 	system("cls");
     
-    do {
-    	menuutama();
-    	scanf("%d",pilihan);
+    menuutama();
+    scanf("%d",&pilihan);
     
+	do {
     	switch (pilihan) {
     		case 1:
+    			printf("konser");
     			menukonser ();
     			break;
     		case 2:
@@ -40,7 +41,7 @@ int main(){
     		default:
     			printf("Pilihan Tidak Valid, Silahkan Pilih Menu lagi");
 		}
-	} while (pilihan != 5);
+	} while (0);
 	
 	return 0;   
 }
